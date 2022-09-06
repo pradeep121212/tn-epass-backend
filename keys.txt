@@ -1,0 +1,15 @@
+{
+"in28minutes": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJpbjI4bWludXRlcyIsImV4cCI6MTU5NzU0MDQ4MSwiaWF0IjoxNTk2OTM1NjgxfQ.0h6r89_HPOST8Z1y6PD2qLQdlKSIlIz9C1QCkpQTwHuM69xhQCk2-RS3JwkFAKrWg9jB1LgpVwz59sXIG5wluA"
+}
+
+{
+"pradeep": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmFkZWVwIiwiZXhwIjoxNTk3NTQwODYyLCJpYXQiOjE1OTY5MzYwNjJ9.4Tx9BHlpz3wQ9if2Vze9WDusfHvVzADMImN-qChEae8bJpqDLOgX2hfB2sUkqsw0s-xdAw3uNtJFIPqR1DUCww"
+}
+
+
+   <dependency>
+        <groupId>sendotp-java</groupId>
+        <artifactId>sendotp-java</artifactId>
+        <version>1.0.0</version>
+        
+    </dependency>
