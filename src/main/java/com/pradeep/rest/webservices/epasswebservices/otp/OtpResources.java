@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4201")
+//@CrossOrigin(origins="http://tnepass.us-west-2.elasticbeanstalk.com")
 public class OtpResources {
 
 private final Logger logger = LoggerFactory.getLogger(this.getClass());

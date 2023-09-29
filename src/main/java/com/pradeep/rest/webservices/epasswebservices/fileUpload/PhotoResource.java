@@ -30,7 +30,7 @@ import com.pradeep.rest.webservices.epasswebservices.pass.EPassHardCodedService;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4201")
+//@CrossOrigin(origins="http://localhost:4201")
 public class PhotoResource {
 	
     @Autowired

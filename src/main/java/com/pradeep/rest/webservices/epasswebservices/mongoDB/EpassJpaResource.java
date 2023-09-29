@@ -27,7 +27,7 @@ import com.pradeep.rest.webservices.epasswebservices.pass.EPassHardCodedService;
 import com.pradeep.rest.webservices.epasswebservices.pass.EpassUpdateRequest;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4201")
+//@CrossOrigin(origins="http://localhost:4201")
 public class EpassJpaResource {
 	
 	@Autowired
@@ -41,7 +41,7 @@ public class EpassJpaResource {
 	 
 	 @RolesAllowed("ADMIN")
 	@DeleteMapping("/jpa/passes")
-	public ResponseEntity<Void> deleteAll(){
+	public ResponseEntity<Void> deleteAll(){	
 		epassRepository.deleteAll();
 		return ResponseEntity.noContent().build();
 	}
@@ -65,6 +65,7 @@ public class EpassJpaResource {
 		ePass.setStatus(request.getStatus()); 
 		epassRepository.save(ePass);
 		String msg = "Your-Application-Of-Id-"+id+"-is-"+request.getStatus();
+		
 		SMSService.sendSMS(msg, ePass.getMobileNo());
 		
 		return new ResponseEntity<EpassUpdateRequest>(request,HttpStatus.OK);

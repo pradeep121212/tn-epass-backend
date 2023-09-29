@@ -14,6 +14,7 @@ public class EPassHardCodedService {
 	private static List<EPass> EPasses = new ArrayList<EPass>();
 	
 	static {
+		
 		List<Passenger> _passengers = new ArrayList<Passenger>();
 		_passengers.add(new Passenger("Pradeep","865726269191",21));
 		EPasses.add(new EPass(""+ ++idCounter,"9003085016", "Stranded in a new Place", new Date(),"Pending", 1,"Chennai","fline1","fline2","Sivagangai","tline1","tline2","tn 01 1234","bike",_passengers));

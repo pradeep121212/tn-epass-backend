@@ -1,8 +1,10 @@
 package com.pradeep.rest.webservices.epasswebservices.otp;
 
 public class OTP {
+	
 	private int otp;
 	private String number;
+	
 	public OTP(int otp, String number) {
 		super();
 		this.otp = otp;

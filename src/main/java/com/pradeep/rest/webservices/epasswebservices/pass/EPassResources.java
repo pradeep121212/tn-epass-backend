@@ -20,7 +20,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4201")
+//@CrossOrigin(origins="http://localhost:4201")
 public class EPassResources {
 	
 	@Autowired

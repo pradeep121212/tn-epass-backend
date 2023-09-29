@@ -33,7 +33,7 @@ public class OtpService {
 Random random = new Random();
 int otp = 100000 + random.nextInt(900000);
 
-SMSService.sendSMS("OTP:"+otp, key);
+SMSService.sendSMS(""+otp, key);
 
 otpCache.put(key, otp);
 return otp;
