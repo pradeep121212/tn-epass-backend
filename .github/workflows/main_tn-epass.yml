@@ -52,4 +52,4 @@ jobs:
           app-name: 'tn-epass'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C11D2526E1D4390993B0581BA8452D4 }}
-          package: '*.jar'
+          package: '*.war'
